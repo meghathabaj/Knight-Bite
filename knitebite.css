@@ -1,0 +1,670 @@
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+body{
+    background-color: black;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.A {
+    font-style: normal;
+}
+
+.fa-utensils {
+    font-size: 30px;
+}
+
+.text {
+    display: flex;
+    gap: 50px;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+.time {
+    border: 1px solid rgba(255, 255, 255, 0.332);
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order {
+    border: 1px solid transparent;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(to right, purple, red);
+}
+.hero{
+    background-image: url(knitebiteimages/burger.jpg);
+    height: 900px;
+    
+    
+}
+.text1{
+    font-size: 600%;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    padding-left: 120px;
+}
+.text2{
+    font-size: 220%;
+    font-weight: 300;
+    font-style: normal;
+    color: grey;
+    padding-left: 120px;
+
+}
+
+/*3 box*/
+.button {
+    display: flex;
+    padding-left: 120px;
+    padding-top: 50px;
+}
+
+.button1 {
+    border: 1px solid transparent;
+    height: 60px;
+    width: 120px;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, purple, red);
+}
+
+.fa-apple {
+    font-size: 40px;
+    color: white;
+}
+
+.icontext {
+    font-size: 10px;
+    color: white;
+}
+
+.icon2 {
+    display: flex;
+    border: 1px solid white;
+    width: 120px;
+    border-radius: 20px;
+    margin-left: 20px;
+    align-items: center;
+    gap: 5px;
+}
+
+.fa-google-play {
+    font-size: 20px;
+    color: white;
+}
+
+.icontext1 {
+    font-size: 10px;
+    color: white;
+}
+
+.icon3 {
+    display: flex;
+    border: 1px solid white;
+    width: 120px;
+    border-radius: 20px;
+    margin-left: 20px;
+    align-items: center;
+    gap: 5px;
+}
+/*next box*/
+.bar{
+    height: 100px;
+    width: 1000px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 40px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+.deliverytime{
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    border-right: 1px solid grey;
+    
+}
+.kitchenhrs{
+    font-size: 30px;
+    color: white;
+    width: 50%;
+}
+.deliverytime span{
+    font-size: 1.3rem;
+    color: grey;
+    margin-top: 5px;
+}
+.kitchenhrs span{
+    font-size: 1.3rem;
+    color: grey;
+    margin-top: 5px;
+}
+     
+/*next bar*/
+.bar2 {
+    height: 100px;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.movingtext {
+    display: flex;
+    gap: 50px;
+    white-space: nowrap;
+    animation: move 80s linear infinite;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+/*next bar*/
+.navbar2{
+    padding-top: 10px;
+}
+.t{
+    color: brown;
+    font-size: 1.0rem;
+    margin-top: 150px;
+    padding-left: 120px;
+}
+.tt{
+    display: flex;
+    gap: 300px;
+}
+.t1{
+    color: white;
+    font-size: 60px;
+    padding-left: 120px;
+    font-weight: bold;
+    font-family: arial;
+}
+.t2{
+    color: rgba(255, 255, 255, 0.553);
+    font-size: 20px;
+    padding-left: 120px;
+    font-weight: 200;
+    font-family: arial;
+}
+.navbar3{ 
+    padding-left: 120px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.box1{
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    height: 280px;
+    width: 200px;
+    
+
+    border-radius: 20px;
+}
+.logo1{
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+.logo1 .fa-solid{
+    font-size: 20px;
+    color: brown;
+    border: 1px solid rgba(255, 255, 255, 0.342);;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.numb1{
+    font-size: 20px;
+    color: grey;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.navbar3 span{
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.content1{
+    color: rgba(255, 255, 255, 0.33);
+    font-family: arial;
+    font-size: 1.0rem;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+
+
+.box2{
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    height: 280px;
+    width: 200px;
+    
+
+    border-radius: 20px;
+}
+.logo2{
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+.logo2 .fa-solid{
+    font-size: 20px;
+    color: brown;
+    border: 1px solid rgba(255, 255, 255, 0.342);;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.numb2{
+    font-size: 20px;
+    color: grey;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.navbar3 span{
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.content2{
+    color: rgba(255, 255, 255, 0.33);
+    font-family: arial;
+    font-size: 1.0rem;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+.box3{
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    height: 280px;
+    width: 200px;
+    
+
+    border-radius: 20px;
+}
+.logo3{
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+.logo3 .fa-solid{
+    font-size: 20px;
+    color: brown;
+    border: 1px solid rgba(255, 255, 255, 0.342);;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.numb3{
+    font-size: 20px;
+    color: grey;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.navbar3 span{
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.content3{
+    color: rgba(255, 255, 255, 0.33);
+    font-family: arial;
+    font-size: 1.0rem;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+
+.box4{
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    height: 280px;
+    width: 200px;
+    
+
+    border-radius: 20px;
+}
+.logo4{
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+.logo4 .fa-solid{
+    font-size: 20px;
+    color: brown;
+    border: 1px solid rgba(255, 255, 255, 0.342);;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.numb4{
+    font-size: 20px;
+    color: grey;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.navbar3 span{
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.content4{
+    color: rgba(255, 255, 255, 0.33);
+    font-family: arial;
+    font-size: 1.0rem;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+
+.box5{
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    height: 280px;
+    width: 200px;
+    
+
+    border-radius: 20px;
+}
+.logo5{
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+.logo5 .fa-solid{
+    font-size: 20px;
+    color: brown;
+    border: 1px solid rgba(255, 255, 255, 0.342);;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.numb5{
+    font-size: 20px;
+    color: grey;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.navbar3 span{
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.content5{
+    color: rgba(255, 255, 255, 0.33);
+    font-family: arial;
+    font-size: 1.0rem;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.navbar4{
+    margin-top: 60px;
+}
+.contents{
+    display: flex;
+    gap: 200px;
+}
+.bg{
+    height: 600px;
+    width:  400px;
+    background-image: url(knitebiteimages/wrap.jpg);
+    background-size: cover;
+    padding-left: 120px;
+    border-radius: 20px;
+
+}
+.navbar4 span{
+    font-size: 60px;
+    font-family: arial;
+
+    
+
+
+}
+p{
+    font-size: 20px;
+    font-family: arial;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.496);
+}
+h3{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: arial;
+    margin-top: 60px;
+    color: rgba(255, 255, 255, 0.496);
+
+}
+.navbar5{
+    background-image: url(knitebiteimages/enjoy.jpg);
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contents2{
+    color: darkred;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: arial;
+    padding-top: 250px;
+    padding-left: 150px;
+}
+.contents3{
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 1.4rem;
+    font-weight: normal;
+    font-family: arial;
+    padding-left: 150px;
+}
+.background{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.bg1{
+    height: 400px;
+    background-image: url(knitebiteimages/wrap1.jpg);
+    width: 300px;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+.bg2{
+    height: 400px;
+    background-image: url(knitebiteimages/wrap2.jpg);
+    width: 300px;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+.bg3{
+    height: 400px;
+    background-image: url(knitebiteimages/wrap3.jpg);
+    width: 300px;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+.bg4{
+    height: 400px;
+    background-image: url(knitebiteimages/wrap4.jpg);
+    width: 300px;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+.bg5{
+    height: 400px;
+    background-image: url(knitebiteimages/wrap5.jpg);
+    width: 300px;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+.bg6{
+    height: 400px;
+    background-image: url(knitebiteimages/wrap6.jpg);
+    width: 300px;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+.navbar7{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.14);
+    color: white;
+}
+.navbar7 p{
+    font-size: 0.8rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
